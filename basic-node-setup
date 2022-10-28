@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+# create .gitignore
+echo 'node_modules' > .gitignore
+# setup git
+git init
+# create base server file
+echo '"use strict";' > server.js
+# create package.json
+npm init -y
+# start setup for ESLint
+npm init @eslint/config
