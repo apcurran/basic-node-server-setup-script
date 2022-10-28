@@ -2,6 +2,7 @@
 
 # create .gitignore
 echo 'node_modules' > .gitignore
+echo '.env' >> .gitignore
 # setup git
 git init
 # create base server file
